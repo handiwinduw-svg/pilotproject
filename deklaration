@@ -17,13 +17,27 @@
     header {
       background-color: #6a0dad;
       color: white;
-      padding: 60px 20px;
+      padding: 60px 20px 80px;
       text-align: center;
+      position: relative;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white;
+      position: absolute;
+      left: 50%;
+      bottom: -75px;
+      transform: translateX(-50%);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
 
     header h1 {
       margin: 0;
-      font-size: 2.5em;
+      font-size: 2.3em;
     }
 
     header p {
@@ -34,11 +48,11 @@
 
     section {
       max-width: 800px;
-      margin: 50px auto;
-      padding: 20px;
+      margin: 100px auto 50px;
+      padding: 30px;
       background: white;
       border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
     h2 {
@@ -77,17 +91,27 @@
     a:hover {
       text-decoration: underline;
     }
+
+    .socials a {
+      margin: 0 10px;
+      display: inline-block;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Handi Windu</h1>
     <p>Web Enthusiast | Creative Thinker | Tech Learner</p>
+    <!-- Ganti URL gambar di bawah dengan link foto kamu -->
+    <img src="https://via.placeholder.com/150" alt="Handi Windu" class="profile-pic">
   </header>
 
   <section>
     <h2>About Me</h2>
-    <p>Hello! I’m Handi — passionate about technology, design, and creating clean, user-friendly digital experiences. I enjoy learning new things and collaborating on creative projects.</p>
+    <p>Hi there! 👋 I’m <strong>Handi Windu</strong> — a tech enthusiast with a passion for design, creativity, and learning new things.  
+    I love crafting clean and modern web pages, exploring UI/UX ideas, and experimenting with new web technologies.  
+    My goal is to combine functionality with simplicity to create enjoyable user experiences.</p>
   </section>
 
   <section>
@@ -96,7 +120,7 @@
       <div class="skill">HTML</div>
       <div class="skill">CSS</div>
       <div class="skill">JavaScript</div>
-      <div class="skill">UI Design</div>
+      <div class="skill">UI/UX Design</div>
       <div class="skill">GitHub Pages</div>
     </div>
   </section>
@@ -105,6 +129,10 @@
     <h2>Contact</h2>
     <p>📧 Email: <a href="mailto:handi@example.com">handi@example.com</a></p>
     <p>🌐 GitHub: <a href="https://github.com/handiusername" target="_blank">github.com/handiusername</a></p>
+    <div class="socials">
+      🔗 <a href="https://linkedin.com/in/handi" target="_blank">LinkedIn</a> |
+      <a href="https://instagram.com/handi" target="_blank">Instagram</a>
+    </div>
   </section>
 
   <footer>
