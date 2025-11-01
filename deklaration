@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Handi Windu - Personal Profile</title>
+  <style>
+    /* ===== Global Styles ===== */
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #e7d8ff, #f7f2ff);
+      color: #333;
+    }
+
+    header {
+      background-color: #6a0dad;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.1em;
+      margin-top: 10px;
+      color: #e0c3ff;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #6a0dad;
+      border-bottom: 2px solid #e0c3ff;
+      padding-bottom: 5px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background-color: #f1e4ff;
+      color: #6a0dad;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: #f8f4ff;
+      color: #555;
+    }
+
+    a {
+      color: #6a0dad;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Handi Windu</h1>
+    <p>Web Enthusiast | Creative Thinker | Tech Learner</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! I’m Handi — passionate about technology, design, and creating clean, user-friendly digital experiences. I enjoy learning new things and collaborating on creative projects.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">UI Design</div>
+      <div class="skill">GitHub Pages</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>📧 Email: <a href="mailto:handi@example.com">handi@example.com</a></p>
+    <p>🌐 GitHub: <a href="https://github.com/handiusername" target="_blank">github.com/handiusername</a></p>
+  </section>
+
+  <footer>
+    © 2025 Handi Windu — Made with 💜 and HTML
+  </footer>
+</body>
+</html>
